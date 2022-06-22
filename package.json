@@ -3,7 +3,9 @@
   "version": "2.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "nodemon --ext html,js,hbs,css app.js"
+
   },
   "license": "ISC",
   "dependencies": {
@@ -20,5 +22,6 @@
   "bugs": {
     "url": "https://github.com/JuanGLopezM/lab-ironbeers/issues"
   },
-  "homepage": "https://github.com/JuanGLopezM/lab-ironbeers#readme"
+  "homepage": "https://github.com/JuanGLopezM/lab-ironbeers#readme",
+  "devDependencies": {}
 }
